@@ -966,8 +966,9 @@ a:visited {
 
 .banner-one__moc {
   position: absolute;
-  top: -6.5%;
-  right: -1.75%;
+  top: -100.5%;
+  right: -10.75%;
+  width: 100%
   -webkit-animation: ImgBounce 5s ease-in-out 0s infinite alternate;
   animation: ImgBounce 5s ease-in-out 0s infinite alternate;
 }
@@ -4123,17 +4124,18 @@ a:visited {
 .app-shot-one .app-shot-one__carousel:before {
   content: "";
   position: absolute;
-  top: 48%;
-  left: 50.5%;
+  top: 50%;
+  left: 50.2%;
   margin-bottom: 50px;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   background-image: url(../images/app-shots/trans_iphone_back.png);
   background-position: center center;
   background-repeat: no-repeat;
-  width: 405px;
-  height: 571px;
-  background-size: 100% auto;
+  width: 389px;
+  height: 690px;
+  background-size: 102.5% auto;
+  z-index: 99999 !important;
   box-shadow: 0px 0px 60px 0px rgba(5, 5, 6, 0.05);
 }
 
